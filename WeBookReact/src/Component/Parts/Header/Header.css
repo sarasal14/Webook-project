@@ -1,0 +1,22 @@
+#header {
+    direction: rtl;
+    height: 400px;    
+    background-color: #b3ccff;
+    background-image: url('/src/srcPic/banner.png');
+    /*margin-left:15px;
+    margin-right:15px;*/
+}
+
+#headText {
+    height: 350px;  
+    text-align:center;
+    
+    
+}
+
+
+#imgLogo {
+    width: 500px;
+    height: 150px;
+    margin-top: 110px;
+}

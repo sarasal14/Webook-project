@@ -1,0 +1,21 @@
+#footer {
+    height: 200px;
+    background-color: #353a40;
+    color: white;
+}
+.socialIcon {
+    font-size: 40px;
+    color: white;
+}
+.footerLinks {
+    /*text-decoration-color: white;*/
+    font-size: 18px;
+    text-align: right;
+    color:white;
+    margin-right:20px;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: white;
+}

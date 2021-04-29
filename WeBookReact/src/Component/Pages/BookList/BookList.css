@@ -1,0 +1,18 @@
+.bookItem{
+    width:280px;
+    font-size: 20px;
+    margin: 0 20px;
+    direction: rtl;
+    text-align: right;
+    border: 1px solid #e0d7da;
+}
+.bookImg{
+    height: 200px;
+    width: 160px;
+    display: flex;
+}
+.bookHeader{
+    background-color: #ebebdf/*#f9f9f8*/;
+    height: 280px;
+    width: 280px;
+}

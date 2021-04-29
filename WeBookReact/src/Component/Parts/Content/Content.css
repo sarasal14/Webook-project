@@ -1,0 +1,70 @@
+#content {
+    direction: rtl;
+    background-color: #ebebe0;
+}
+.topic {
+    border: 1px solid #e0d7da;
+    font-size:20px;
+}
+.aimIcon {
+    font-size: 40px;
+}
+.signTopic {
+    font-size: 20px;
+}
+#signType {
+    width: 45%;
+    height: 35%;
+    position:absolute;
+    top:15px;
+    left:170px;
+}
+#signType2 {
+    width: 45%;
+    height: 35%;
+    position: absolute;
+    top: 175px;
+    left: 170px;
+}
+#announce {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+.schoolName{
+    font-size: 25px;
+}
+#school1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 130px;
+    right: 170px;
+}
+#school2 {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: 130px;
+    right: 155px;
+}
+#school3 {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    bottom: 130px;
+    left: 170px;
+}
+#myCarousel {
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.carousel-inner img {
+    width: auto;
+    height: 350px;
+}
