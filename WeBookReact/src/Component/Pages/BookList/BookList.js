@@ -3,6 +3,8 @@ import {BookListJson} from './BookListJson';
 import './BookList.css';
 
 
+
+
 function ShowBookItem(item){
     return(
         <div className="mt-5 bookItem col-3">
@@ -25,12 +27,23 @@ function ShowBookItem(item){
 }
 class BookList extends React.Component
 {
+    constructor() {
+        super();
+        this.state = { BookListJson:[] };
+      }
+
+      componentDidMount() {
+        fetch(`/BooksList`)
+          .then(res => res.json())
+          .then(json => this.setState({ BookListJson: json }));
+      }
     
     render()
     {
         return(
             <div className="row">               
-                {BookListJson.map(ShowBookItem)}
+                {/* {BookListJson.map(ShowBookItem)} */}
+                {this.state.BookListJson.map(ShowBookItem)}
             </div>
 
         );

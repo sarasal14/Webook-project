@@ -2,15 +2,18 @@ import React from 'react';
 import './CarouselItem.css';
 
 
+
 class CarouselItem extends React.Component{
     
     render(){
-        return(            
-            <img className="cItem" src={this.props.myImagePath}/>                   
-        );
-    }
+           
+                return(            
+                    <img className="cItem" src={this.props.myImagePath}/>                   
+                );
+           
+        }
 
-}
+    }
 export default CarouselItem;
 
 //or the same way
